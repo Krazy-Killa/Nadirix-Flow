@@ -1,4 +1,4 @@
-# AI Command Interface — Project Overview
+# Nadirix Flow — Project Overview
 
 > **🧪 Partially validated — project status**
 >
@@ -6,7 +6,10 @@
 > Selected Proxmox and HTTPS integrations have been exercised in a nested lab;
 > physical-host validation remains outstanding.
 
-The AI Command Interface is a unified dashboard, backend API, and Discord bot designed to manage local AI models, system telemetry, GPU inference, and multi-agent workflows. It is optimized for AMD hardware (RX 6800 XT) and intended to run on a dedicated homelab server.
+Nadirix Flow is a unified dashboard, backend API, and Discord bot designed to
+manage local AI models, system telemetry, GPU inference, and specialized AI
+workloads. It currently targets AMD hardware (RX 6800 XT) and is intended to
+run on a dedicated homelab server.
 
 ## Components
 - **Frontend Dashboard** (HTML/CSS/JS)

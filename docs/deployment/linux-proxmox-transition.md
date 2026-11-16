@@ -764,7 +764,7 @@ firewall rules so only 80/443 are reachable.
 administrators can upload a signed `.aibundle`, verify and stage it, and
 discard it from Settings → Setup / Deployment. It does not apply or extract
 the release into the live deployment. Automatic **Apply** (Stage 2) is not
-implemented. Its scope is the AI Server backend and static dashboard
+implemented. Its scope is the Nadirix Flow backend and static dashboard
 application only; it must not update Proxmox, Debian packages, kernel,
 ROCm/HIP, inference runtimes, SearXNG, or operator-managed configuration and
 secrets.

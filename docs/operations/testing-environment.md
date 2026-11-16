@@ -307,7 +307,7 @@ configure router port forwarding.
    networks:
 
    ```powershell
-   New-NetFirewallRule -DisplayName "AI Server LAN Test" -Direction Inbound `
+   New-NetFirewallRule -DisplayName "Nadirix Flow LAN Test" -Direction Inbound `
      -Action Allow -Protocol TCP -LocalPort 8000,8001 -Profile Private `
      -RemoteAddress LocalSubnet
    ```
@@ -315,7 +315,7 @@ configure router port forwarding.
    Stop both servers with Ctrl+C after testing. Remove the rule when finished:
 
    ```powershell
-   Remove-NetFirewallRule -DisplayName "AI Server LAN Test"
+   Remove-NetFirewallRule -DisplayName "Nadirix Flow LAN Test"
    ```
 
 The IP address in the certificate, `.env`, and browser URL must match. If the

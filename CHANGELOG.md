@@ -1,6 +1,6 @@
 # Changelog
 
-Notable changes to the AI Command Interface are documented here.
+Notable changes to Nadirix Flow are documented here.
 This file follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 principles and [Semantic Versioning](https://semver.org/).
 
@@ -25,6 +25,9 @@ principles and [Semantic Versioning](https://semver.org/).
 
 ### Changed
 
+- Renamed the product-facing documentation to Nadirix Flow. The existing
+  GitHub repository slug, local paths, and configuration identifiers remain
+  unchanged.
 - Organized the roadmap's current-status summary by topic and added a
   phase-status overview with consistent status, evidence, and next-gate
   callouts. Preserved Phase 3's numbered integration-priority order.

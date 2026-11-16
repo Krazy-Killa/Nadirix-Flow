@@ -746,14 +746,14 @@ validated on the physical target.
   **Status:** Concept
 
   **Objective:** Provide a simple, locally hosted household file-storage
-  service on the AI Server, using RAID 5 to increase usable capacity over
-  mirrored storage while retaining single-drive failure tolerance, and leave
-  a path to expand storage capacity.
+  service on the Nadirix Flow host, using RAID 5 to increase usable capacity
+  over mirrored storage while retaining single-drive failure tolerance, and
+  leave a path to expand storage capacity.
 
   **Responsibilities:**
 
-  - **AI Server:** host and manage the initial household file-storage service
-    using up to four SATA hard drives in a RAID 5 configuration.
+  - **Nadirix Flow host:** host and manage the initial household file-storage
+    service using up to four SATA hard drives in a RAID 5 configuration.
   - **Future NAS expansion:** provide additional storage through either a
     dedicated USB 3.1 connection to a NAS box or a separate NAS connected over
     Ethernet, preferably with two 2.5 Gbps connections.
@@ -975,7 +975,7 @@ validated on the physical target.
 
   **Status:** Concept
 
-  **Objective:** Extend the Maintenance AI's diagnostics from AI Server
+  **Objective:** Extend the Maintenance AI's diagnostics from Nadirix Flow
   health to household network and infrastructure awareness, so reported
   connectivity problems can be investigated using correlated, evidence-based
   observations.

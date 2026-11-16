@@ -4,7 +4,7 @@
 
 - The Windows development machine currently has the AMD RX 6800 XT installed.
 - After a replacement GPU is acquired, the RX 6800 XT is intended to move to
-  the dedicated AI Server.
+  the dedicated Nadirix Flow host.
 - The dedicated server is planned to run Linux under Proxmox.
 
 ## Windows development/testing

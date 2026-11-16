@@ -1,8 +1,8 @@
-# AI Command Interface
+# Nadirix Flow
 
-A local AI and homelab dashboard with a browser-based interface, FastAPI
-backend, and optional Discord bot. This project is being developed and tested
-on Windows before deployment to a dedicated Linux/Proxmox server.
+Nadirix Flow is a local AI and homelab dashboard with a browser-based
+interface, FastAPI backend, and optional Discord bot. It is being developed
+and tested on Windows before deployment to a dedicated Linux/Proxmox host.
 
 Current development and deployment planning targets AMD GPUs. The Windows
 test environment uses an RX 6800 XT for Vulkan inference through llama.cpp.
@@ -90,7 +90,7 @@ llama.cpp restarts.
 
 The initial target is a Proxmox VE 9.x host with one AMD RX 6800 XT. The GPU
 is currently in the Windows development machine and is intended to move to
-the AI Server after a replacement GPU is acquired. The planned host stack is
+the dedicated host after a replacement GPU is acquired. The planned stack is
 ROCm/HIP, ROCm-built llama.cpp with `llama-server`, ONNX Runtime ROCm EP,
 ComfyUI ROCm, Podman/Quadlet, NGINX, and Qdrant; ROCm/HIP is intended to be
 installed on the Proxmox host. These are deployment targets, not installed or
@@ -138,7 +138,7 @@ index.html        Dashboard interface
 
 ## Documentation
 
-- [Documentation website](https://krazy-killa.github.io/AI-Server/) — Browse
+- [Nadirix Flow documentation](https://krazy-killa.github.io/AI-Server/) — Browse
   and search the published guides.
 - [Project context](./docs/project-context.md) — Primary onboarding briefing
   for contributors and AI sessions.

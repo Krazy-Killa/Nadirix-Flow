@@ -1,4 +1,4 @@
-# AI Server Project Context
+# Nadirix Flow Project Context
 
 **Purpose:** Primary onboarding briefing for new contributors and AI sessions.
 This is a high-level snapshot, not an operational runbook. The
@@ -13,11 +13,10 @@ acceptance. Success in one environment does not prove behavior in another.
 
 ### Mission and goals
 
-The AI Server (also called the **AI Command Interface**) is a local-first
-household AI and operations platform under development. It combines a browser
-dashboard, a Python/FastAPI backend, local model inference, system telemetry,
-and an optional Discord bot. The intended deployment target is a dedicated
-Linux server running Proxmox VE.
+Nadirix Flow is a local-first household AI and operations platform under
+development. It combines a browser dashboard, a Python/FastAPI backend, local
+model inference, system telemetry, and an optional Discord bot. The intended
+deployment target is a dedicated Linux server running Proxmox VE.
 
 Goals include:
 
@@ -224,7 +223,7 @@ acceptance remain unverified.
 **Purpose:** Prepare Linux/Proxmox deployment and integration work. Results
 are nested-lab evidence only, not physical server acceptance.
 
-### Planned Physical AI Server
+### Planned Physical Host
 
 The target is a dedicated Proxmox VE 9.x server using direct host GPU access
 (GPU passthrough is not planned). The current intended initial GPU is one
@@ -548,7 +547,7 @@ Important guides include the [roadmap](./roadmap/README.md),
 
 ## AI Session Handoff
 
-- **Project:** local-first AI Command Interface for household AI and
+- **Project:** Nadirix Flow, a local-first platform for household AI and
   operations, developed on Windows and intended for a Linux/Proxmox server.
 - **Validated:** Windows application/backend behavior and tests; local
   llama.cpp/Vulkan smoke path and Windows GPU telemetry; DirectML synthetic

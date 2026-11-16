@@ -1,8 +1,8 @@
-# Welcome to AI Server
+# Welcome to Nadirix Flow
 
-AI Server, also called the **AI Command Interface**, is a local-first AI and
-homelab dashboard. It brings local AI chat, model management, system
-monitoring, and an optional Discord bot together in one interface.
+**Nadirix Flow** is a local-first AI and homelab dashboard. It brings local AI
+chat, model management, system monitoring, and an optional Discord bot
+together in one interface.
 
 The project is being developed on Windows, with a Linux/Proxmox deployment
 being prepared and tested in a nested lab.
