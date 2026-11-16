@@ -138,7 +138,7 @@ index.html        Dashboard interface
 
 ## Documentation
 
-- [Nadirix Flow documentation](https://krazy-killa.github.io/AI-Server/) — Browse
+- [Nadirix Flow documentation](https://docs.nadirix-flow.cc/) — Browse
   and search the published guides.
 - [Project context](./docs/project-context.md) — Primary onboarding briefing
   for contributors and AI sessions.

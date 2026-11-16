@@ -25,9 +25,11 @@ principles and [Semantic Versioning](https://semver.org/).
 
 ### Changed
 
-- Renamed the product-facing documentation to Nadirix Flow. The existing
-  GitHub repository slug, local paths, and configuration identifiers remain
-  unchanged.
+- Prepared dashboard version `0.10.0` as the next minor release; it has not
+  been built or deployed.
+- Renamed the product-facing documentation to Nadirix Flow and updated
+  repository links to `Krazy-Killa/Nadirix-Flow`. Legacy local paths and
+  configuration identifiers remain unchanged.
 - Organized the roadmap's current-status summary by topic and added a
   phase-status overview with consistent status, evidence, and next-gate
   callouts. Preserved Phase 3's numbered integration-priority order.

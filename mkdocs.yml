@@ -1,8 +1,8 @@
 site_name: Nadirix Flow Documentation
 site_description: Guides and project status for Nadirix Flow
-site_url: https://krazy-killa.github.io/AI-Server/
-repo_url: https://github.com/Krazy-Killa/AI-Server
-repo_name: Krazy-Killa/AI-Server
+site_url: https://docs.nadirix-flow.cc/
+repo_url: https://github.com/Krazy-Killa/Nadirix-Flow
+repo_name: Krazy-Killa/Nadirix-Flow
 
 validation:
   links:

@@ -39,7 +39,7 @@ and their current capabilities.
 ## Get started
 
 - **Try the Windows development setup:** Follow the
-  [Windows quick start](https://github.com/Krazy-Killa/AI-Server#windows-quick-start)
+  [Windows quick start](https://github.com/Krazy-Killa/Nadirix-Flow#windows-quick-start)
   and the detailed [testing guide](./operations/testing-environment.md).
 - **Understand the project:** Read the
   [project overview](./architecture/overview.md) and

@@ -29,7 +29,7 @@ attributes, so it can be served under a strict Content-Security-Policy.
 `js/theme-init.js` is the small classic script that applies the saved light
 theme before first paint. Keep new code in external modules.
 
-[`ai-backend/dashboard_server.py`](https://github.com/Krazy-Killa/AI-Server/blob/main/ai-backend/dashboard_server.py)
+[`ai-backend/dashboard_server.py`](https://github.com/Krazy-Killa/Nadirix-Flow/blob/main/ai-backend/dashboard_server.py)
 defines the policy (`script-src 'self'`, `default-src 'none'`,
 `frame-ancestors 'none'`, `connect-src` limited to the dashboard origin and
 port `8000`) plus `X-Frame-Options`, `X-Content-Type-Options`, `Referrer-Policy`,

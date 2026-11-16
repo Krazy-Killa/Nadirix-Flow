@@ -92,8 +92,8 @@ concepts are not implemented integrations; see
 ### Frontend
 
 The frontend is static HTML, CSS, and native browser JavaScript ES modules;
-there is no bundler. [index.html](https://github.com/Krazy-Killa/AI-Server/blob/main/index.html)
-loads [js/app.js](https://github.com/Krazy-Killa/AI-Server/blob/main/js/app.js),
+there is no bundler. [index.html](https://github.com/Krazy-Killa/Nadirix-Flow/blob/main/index.html)
+loads [js/app.js](https://github.com/Krazy-Killa/Nadirix-Flow/blob/main/js/app.js),
 which owns authentication, navigation, chat/research, model selection, and bot
 controls. Focused modules handle backend logs, diagnostics/VM inventory,
 system telemetry, and UI preferences. It is served over HTTP/HTTPS to allow

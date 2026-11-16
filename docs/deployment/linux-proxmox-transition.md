@@ -344,7 +344,7 @@ tracked in the repository.
 
 ## Host preparation script
 
-[`scripts/proxmox/prepare-ai-host.sh`](https://github.com/Krazy-Killa/AI-Server/blob/main/scripts/proxmox/prepare-ai-host.sh)
+[`scripts/proxmox/prepare-ai-host.sh`](https://github.com/Krazy-Killa/Nadirix-Flow/blob/main/scripts/proxmox/prepare-ai-host.sh)
 is an initial, deliberately conservative bootstrap:
 
 - Run `bash scripts/proxmox/prepare-ai-host.sh --check` for a read-only
