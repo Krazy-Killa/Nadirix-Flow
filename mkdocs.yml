@@ -12,6 +12,7 @@ theme:
   name: material
   font: false
   logo: assets/nadirix-mark.svg
+  favicon: assets/nadirix-favicon.svg
   features:
     - navigation.sections
     - navigation.top
