@@ -36,6 +36,7 @@ logs/
 *.safetensors
 *.onnx
 /AI Server.code-workspace
+/Nadirix Flow.code-workspace
 /ai-server-host-report*.md
 
 # Release signing keys must never be committed
