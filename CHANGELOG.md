@@ -37,7 +37,8 @@ principles and [Semantic Versioning](https://semver.org/).
   automatic read-only SQLite snapshots, authority boundaries, and missing
   runbook/context provisioning path.
 - Matched the documentation site's colors and typography to the dashboard,
-  while retaining its navigation and light/dark theme switch.
+  added the Nadirix Flow mark to its header, and retained its navigation and
+  light/dark theme switch.
 - Added quick orientation and section links to the roadmap and Linux/Proxmox
   runbook.
 - Made the documentation home page easier to navigate and highlighted

@@ -11,6 +11,7 @@ validation:
 theme:
   name: material
   font: false
+  logo: assets/nadirix-mark.svg
   features:
     - navigation.sections
     - navigation.top
