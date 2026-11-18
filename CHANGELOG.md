@@ -42,6 +42,7 @@ principles and [Semantic Versioning](https://semver.org/).
   field to keep page content from competing with the query.
 - Matched the GitHub repository control height to the search field in the
   documentation header.
+- Centered the repository icon within the resized header control.
 - Changed the documentation header logo and title link to open
   `https://nadirix-flow.cc/` instead of the documentation site.
 - Prepared dashboard version `0.10.0` as the next minor release; it has not

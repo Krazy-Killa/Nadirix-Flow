@@ -304,7 +304,16 @@ body[data-md-color-scheme="slate"] .md-search__form:focus-within,
 }
 
 .md-header__source .md-source__icon {
+  display: inline-flex;
+  width: 2rem;
   height: 38px;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.md-header__source .md-source__icon svg {
+  margin: 0;
 }
 
 .md-typeset a {
