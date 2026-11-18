@@ -13,6 +13,7 @@ theme:
   font: false
   logo: assets/nadirix-mark.svg
   favicon: assets/nadirix-favicon.svg
+  custom_dir: docs/overrides
   features:
     - navigation.sections
     - navigation.top
@@ -21,13 +22,11 @@ theme:
     - content.code.copy
   palette:
     - scheme: slate
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
-    - scheme: default
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
+      primary: black
+      accent: teal
+
+extra:
+  homepage: https://nadirix-flow.cc/
 
 extra_css:
   - stylesheets/dashboard.css

@@ -25,6 +25,17 @@ principles and [Semantic Versioning](https://semver.org/).
 
 ### Changed
 
+- Matched the documentation site's dark palette, typography, grid, panels,
+  navigation, borders, and mint accent to the Nadirix Flow main site.
+- Updated the documentation header branding and icon sizing to match the main
+  Nadirix Flow navigation, and removed the sidebar title bar background.
+- Restored the documentation site name while keeping the main-site logo link
+  tooltip, centered the header contents, compacted the search field, and made
+  the header translucent with a backdrop blur.
+- Removed the sidebar-container blur and edge border so the site background
+  remains clear around navigation while preserving the Table of Contents card.
+- Changed the documentation header logo and title link to open
+  `https://nadirix-flow.cc/` instead of the documentation site.
 - Prepared dashboard version `0.10.0` as the next minor release; it has not
   been built or deployed.
 - Renamed the product-facing documentation to Nadirix Flow and updated
