@@ -38,6 +38,8 @@ principles and [Semantic Versioning](https://semver.org/).
   panel to the viewport, and faded scrolling entries before the header.
 - Matched documentation link, search, button, and sidebar hover transitions
   with the Nadirix Flow main site.
+- Added a dark blurred glass background to the active documentation search
+  field to keep page content from competing with the query.
 - Changed the documentation header logo and title link to open
   `https://nadirix-flow.cc/` instead of the documentation site.
 - Prepared dashboard version `0.10.0` as the next minor release; it has not

@@ -277,8 +277,6 @@ body[data-md-color-scheme="slate"] .md-header {
 }
 
 body[data-md-color-scheme="slate"] .md-search__form:hover,
-body[data-md-color-scheme="slate"] .md-search__form:focus-within,
-[data-md-toggle="search"]:checked ~ .md-header .md-search__form,
 .md-header__source .md-source:hover,
 .md-header__source .md-source:focus-visible,
 .md-top:hover,
@@ -288,6 +286,14 @@ body[data-md-color-scheme="slate"] .md-search__form:focus-within,
   border-color: var(--md-accent-fg-color);
   background-color: var(--docs-accent-dim);
   opacity: 1;
+}
+
+body[data-md-color-scheme="slate"] .md-search__form:focus-within,
+[data-md-toggle="search"]:checked ~ .md-header .md-search__form {
+  border-color: var(--md-accent-fg-color);
+  background-color: rgba(8, 12, 18, 0.88);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
 }
 
 .md-header__source .md-source {
