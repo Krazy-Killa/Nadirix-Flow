@@ -34,6 +34,10 @@ principles and [Semantic Versioning](https://semver.org/).
   the header translucent with a backdrop blur.
 - Removed the sidebar-container blur and edge border so the site background
   remains clear around navigation while preserving the Table of Contents card.
+- Kept the Table of Contents heading visible and opaque, constrained the
+  panel to the viewport, and faded scrolling entries before the header.
+- Matched documentation link, search, button, and sidebar hover transitions
+  with the Nadirix Flow main site.
 - Changed the documentation header logo and title link to open
   `https://nadirix-flow.cc/` instead of the documentation site.
 - Prepared dashboard version `0.10.0` as the next minor release; it has not

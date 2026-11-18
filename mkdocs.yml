@@ -31,6 +31,9 @@ extra:
 extra_css:
   - stylesheets/dashboard.css
 
+extra_javascript:
+  - javascripts/toc-scroll.js
+
 nav:
   - Home: README.md
   - Project context: project-context.md
