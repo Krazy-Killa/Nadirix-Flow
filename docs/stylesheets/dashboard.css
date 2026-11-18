@@ -299,6 +299,12 @@ body[data-md-color-scheme="slate"] .md-search__form:focus-within,
 .md-header__source .md-source {
   border: 1px solid var(--docs-border-hover);
   border-radius: 8px;
+  box-sizing: border-box;
+  height: 40px;
+}
+
+.md-header__source .md-source__icon {
+  height: 38px;
 }
 
 .md-typeset a {
